@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({
 
 app.set('view engine', 'ejs');
 
-
+//Connecting with MongoDB
 mongoose.connect("mongodb://localhost:27017/userDB");
 
 //User Schema
